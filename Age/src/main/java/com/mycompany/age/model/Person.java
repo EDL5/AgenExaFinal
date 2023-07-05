@@ -10,11 +10,11 @@ import javafx.beans.property.StringProperty;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "pagos")
+@Table(name = "persona")
 public class Person {
     
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
         private final StringProperty firstName;
 	private final StringProperty lastName;
